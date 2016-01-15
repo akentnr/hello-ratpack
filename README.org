@@ -1,0 +1,14 @@
+* About
+Testing RUM and Ratpack.
+
+* Running
+Modify build.gradle to point to your newrelic jar.
+
+#+BEGIN_SRC gradle
+applicationDefaultJvmArgs = ["-javaagent:/path/to/your/newrelic.jar"]
+#+END_SRC
+
+Then run with:
+#+BEGIN_SRC gradle
+gradle run
+#+END_SRC
